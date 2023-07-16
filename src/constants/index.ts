@@ -4,6 +4,6 @@ interface IConstants {
 }
 
 export const CONSTANTS: IConstants = {
-  globalPrefix: '/api',
+  globalPrefix: '',
   enableCors: process.env.NODE_ENV === 'production',
 };
